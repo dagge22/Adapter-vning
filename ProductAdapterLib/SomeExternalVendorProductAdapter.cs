@@ -1,14 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
+using ProductLib;
 
-namespace ProductLib
+namespace ProductAdapterLib
 {
-    public class Product : IProduct
+    class SomeExternalVendorProductAdapter : IProduct
     {
+
+        public void ShowPrice()
+        {
+            throw new NotImplementedException();    
+        }
 
         public decimal Price
         {
@@ -44,11 +49,6 @@ namespace ProductLib
             {
                 throw new NotImplementedException();
             }
-        }
-
-        public void ShowPrice()
-        {
-            throw new NotImplementedException();
         }
     }
 }

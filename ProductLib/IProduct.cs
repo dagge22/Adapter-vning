@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProductLib
 {
-    interface IProduct
+    public interface IProduct
     {
+         decimal Price { get; set; }
+         string Barcode { get; set; }
+         string title { get; set; }
         void ShowPrice();
     }
 }

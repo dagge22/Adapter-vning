@@ -7,10 +7,9 @@ using ProductLib;
 
 namespace ProductAdapterLib
 {
-    class SomeExternalVendorProductAdapter : IProduct
+    public class SomeExternalVendorProductAdapter : IProduct
     {
-
-
+        
         public void ShowPrice()
         {
             throw new NotImplementedException();

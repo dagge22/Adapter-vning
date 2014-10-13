@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ProductAdapterLib;
 using ProductLib;
 
 namespace ProductTestLib
@@ -8,16 +9,18 @@ namespace ProductTestLib
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestThatProductValuesAreCorrect()
         {
             //Arrange
             Product product = new Product();
-            var actualPrice = product.Price;
+            int expectedPrice = 10;
+            string expectedBarcode = "barcode";
+            string expectedTitle = "title";
             //Act
-            
+            decimal actualPrice = product.Price;
 
             //Assert
-
+            Assert.AreEqual(expectedPrice, actualPrice);
         }
     }
 }

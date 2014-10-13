@@ -12,14 +12,14 @@ namespace ProductLib
 
         public decimal Price { get; set; }
         public string Barcode { get; set; }
-        public string title { get; set; }
+        public string Title { get; set; }
 
 
         public decimal IUnitPrice
         {
             get
             {
-                throw new NotImplementedException();
+                return Price;
             }
             set
             {
@@ -31,7 +31,7 @@ namespace ProductLib
         {
             get
             {
-                throw new NotImplementedException();
+                return Barcode;
             }
             set
             {
@@ -43,7 +43,7 @@ namespace ProductLib
         {
             get
             {
-                throw new NotImplementedException();
+                return Title;
             }
             set
             {

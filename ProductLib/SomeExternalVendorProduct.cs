@@ -8,6 +8,12 @@ namespace ProductLib
 {
     class SomeExternalVendorProduct
     {
+        public SomeExternalVendorProduct(SomeExternalVendorProduct someExternalVendorProduct)
+        {
+            someExternalVendorProduct.Description = Description;
+            someExternalVendorProduct.EANCode = EANCode;
+            someExternalVendorProduct.PricePerUnit = PricePerUnit;
+        }
         public int PricePerUnit { get; set; }
         public string EANCode { get; set; }
         public string Description { get; set; }

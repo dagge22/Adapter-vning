@@ -5,3 +5,5 @@ c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\bin
 c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\obj\Debug\ProductTestLib.csprojResolveAssemblyReference.cache
 c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\obj\Debug\ProductTestLib.dll
 c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\obj\Debug\ProductTestLib.pdb
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\bin\Debug\ProductAdapterLib.dll
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\bin\Debug\ProductAdapterLib.pdb

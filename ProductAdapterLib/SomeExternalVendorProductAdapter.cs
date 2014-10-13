@@ -10,12 +10,13 @@ namespace ProductAdapterLib
     class SomeExternalVendorProductAdapter : IProduct
     {
 
+
         public void ShowPrice()
         {
-            throw new NotImplementedException();    
+            throw new NotImplementedException();
         }
 
-        public decimal Price
+        public decimal IUnitPrice
         {
             get
             {
@@ -27,7 +28,7 @@ namespace ProductAdapterLib
             }
         }
 
-        public string Barcode
+        public string IBarcode
         {
             get
             {
@@ -39,7 +40,7 @@ namespace ProductAdapterLib
             }
         }
 
-        public string title
+        public string ITitle
         {
             get
             {

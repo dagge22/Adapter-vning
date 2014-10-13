@@ -1,0 +1,7 @@
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\bin\Debug\ProductTestLib.dll
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\bin\Debug\ProductTestLib.pdb
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\bin\Debug\ProductLib.dll
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\bin\Debug\ProductLib.pdb
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\obj\Debug\ProductTestLib.csprojResolveAssemblyReference.cache
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\obj\Debug\ProductTestLib.dll
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductTestLib\obj\Debug\ProductTestLib.pdb

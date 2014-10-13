@@ -10,7 +10,12 @@ namespace ProductLib
     public class Product : IProduct
     {
 
-        public decimal Price
+        public decimal Price { get; set; }
+        public string Barcode { get; set; }
+        public string title { get; set; }
+
+
+        public decimal IUnitPrice
         {
             get
             {
@@ -22,7 +27,7 @@ namespace ProductLib
             }
         }
 
-        public string Barcode
+        public string IBarcode
         {
             get
             {
@@ -34,7 +39,7 @@ namespace ProductLib
             }
         }
 
-        public string title
+        public string ITitle
         {
             get
             {

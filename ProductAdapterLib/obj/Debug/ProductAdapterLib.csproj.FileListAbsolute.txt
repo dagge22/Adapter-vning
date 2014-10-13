@@ -1,0 +1,7 @@
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductAdapterLib\bin\Debug\ProductAdapterLib.dll
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductAdapterLib\bin\Debug\ProductAdapterLib.pdb
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductAdapterLib\bin\Debug\ProductLib.dll
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductAdapterLib\bin\Debug\ProductLib.pdb
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductAdapterLib\obj\Debug\ProductAdapterLib.csprojResolveAssemblyReference.cache
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductAdapterLib\obj\Debug\ProductAdapterLib.dll
+c:\users\dag\documents\visual studio 2013\Projects\ProductLib\ProductAdapterLib\obj\Debug\ProductAdapterLib.pdb

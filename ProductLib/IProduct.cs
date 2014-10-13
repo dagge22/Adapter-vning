@@ -8,9 +8,9 @@ namespace ProductLib
 {
     public interface IProduct
     {
-         decimal Price { get; set; }
-         string Barcode { get; set; }
-         string title { get; set; }
+         decimal IUnitPrice { get; set; }
+         string IBarcode { get; set; }
+        string ITitle { get; set; }
         void ShowPrice();
     }
 }

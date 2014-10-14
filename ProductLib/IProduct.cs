@@ -11,6 +11,5 @@ namespace ProductLib
         decimal IUnitPrice { get; set; }
         string IBarcode { get; set; }
         string ITitle { get; set; }
-        void ShowPrice();
     }
 }

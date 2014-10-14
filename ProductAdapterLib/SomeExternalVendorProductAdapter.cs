@@ -9,17 +9,22 @@ namespace ProductAdapterLib
 {
     public class SomeExternalVendorProductAdapter : IProduct
     {
-        private SomeExternalVendorProduct product = new SomeExternalVendorProduct();
-        public void ShowPrice()
+        public decimal Price { get; set; }
+        public string Barcode { get; set; }
+        public string Title { get; set; }
+
+        public SomeExternalVendorProductAdapter(SomeExternalVendorProduct someExternalVendorProduct)
         {
-            throw new NotImplementedException();
+            Price = someExternalVendorProduct.PricePerUnit;
+            Barcode = someExternalVendorProduct.EANCode;
+            Title = someExternalVendorProduct.Description;
         }
 
         public decimal IUnitPrice
         {
             get
             {
-                return product.PricePerUnit;
+                return Price;
             }
             set
             {
@@ -31,7 +36,7 @@ namespace ProductAdapterLib
         {
             get
             {
-                return product.EANCode;
+                return Barcode;
             }
             set
             {
@@ -43,7 +48,7 @@ namespace ProductAdapterLib
         {
             get
             {
-                return product.Description;
+                return Title;
             }
             set
             {

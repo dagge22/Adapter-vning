@@ -14,6 +14,13 @@ namespace ProductLib
         //    someExternalVendorProduct.EANCode = EANCode;
         //    someExternalVendorProduct.PricePerUnit = PricePerUnit;
         //}
+
+        public SomeExternalVendorProduct()
+        {
+            PricePerUnit = 10;
+            EANCode = "EANCode";
+            Description = "Description";
+        }
         public int PricePerUnit { get; set; }
         public string EANCode { get; set; }
         public string Description { get; set; }

@@ -50,10 +50,5 @@ namespace ProductLib
                 throw new NotImplementedException();
             }
         }
-
-        public void ShowPrice()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

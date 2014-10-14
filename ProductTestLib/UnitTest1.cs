@@ -16,6 +16,7 @@ namespace ProductTestLib
             int expectedPrice = 10;
             string expectedBarcode = "barcode";
             string expectedTitle = "title";
+
             //Act
             decimal actualPrice = product.IUnitPrice;
             string actualBarcode = product.IBarcode;
@@ -30,7 +31,20 @@ namespace ProductTestLib
         [TestMethod]
         public void TestSomeExternalVendorProductAdapter()
         {
-            
+            //Arrange
+            SomeExternalVendorProduct product = new SomeExternalVendorProduct();
+            int expectedPrice = 10;
+            string expectedEANCode = "EANCode";
+            string expectedDescription = "Description";
+            //Act
+            int actualPrice = product.PricePerUnit;
+            string actualEANCode = product.EANCode;
+            string actualDescription = product.Description;
+
+            //Assert
+            Assert.AreEqual(expectedPrice, actualPrice);
+            Assert.AreEqual(expectedEANCode, actualEANCode);
+            Assert.AreEqual(expectedDescription, actualDescription);
         }
     }
 }

@@ -17,10 +17,20 @@ namespace ProductTestLib
             string expectedBarcode = "barcode";
             string expectedTitle = "title";
             //Act
-            decimal actualPrice = product.Price;
+            decimal actualPrice = product.IUnitPrice;
+            string actualBarcode = product.IBarcode;
+            string actualTitle = product.ITitle;
 
             //Assert
             Assert.AreEqual(expectedPrice, actualPrice);
+            Assert.AreEqual(expectedBarcode, actualBarcode);
+            Assert.AreEqual(expectedTitle, actualTitle);
+        }
+
+        [TestMethod]
+        public void TestSomeExternalVendorProductAdapter()
+        {
+            
         }
     }
 }

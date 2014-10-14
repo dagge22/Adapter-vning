@@ -19,7 +19,7 @@ namespace ProductLib
         {
             get
             {
-                return Price;
+                return 10;
             }
             set
             {
@@ -31,7 +31,7 @@ namespace ProductLib
         {
             get
             {
-                return Barcode;
+                return "barcode";
             }
             set
             {
@@ -43,7 +43,7 @@ namespace ProductLib
         {
             get
             {
-                return Title;
+                return "title";
             }
             set
             {

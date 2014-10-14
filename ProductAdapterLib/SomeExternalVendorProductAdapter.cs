@@ -9,7 +9,7 @@ namespace ProductAdapterLib
 {
     public class SomeExternalVendorProductAdapter : IProduct
     {
-        
+        private SomeExternalVendorProduct product = new SomeExternalVendorProduct();
         public void ShowPrice()
         {
             throw new NotImplementedException();
@@ -19,7 +19,7 @@ namespace ProductAdapterLib
         {
             get
             {
-                throw new NotImplementedException();
+                return product.PricePerUnit;
             }
             set
             {
@@ -31,7 +31,7 @@ namespace ProductAdapterLib
         {
             get
             {
-                throw new NotImplementedException();
+                return product.EANCode;
             }
             set
             {
@@ -43,7 +43,7 @@ namespace ProductAdapterLib
         {
             get
             {
-                throw new NotImplementedException();
+                return product.Description;
             }
             set
             {
